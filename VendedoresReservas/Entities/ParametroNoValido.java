@@ -1,8 +1,8 @@
 package com.example.VendedoresReservas.Entities;
 
-public class ParametroNoValido extends Exception{
+public class DatoNoValido extends Exception{
 
-    public ParametroNoValido(String message) {
+    public DatoNoValido(String message) {
         super("ERROR: " + message);
     }
 
